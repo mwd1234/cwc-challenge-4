@@ -11,7 +11,7 @@ import SwiftUI
 struct CWC_Challenge_4App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(listTitle: "List to Watch")
         }
     }
 }

@@ -11,6 +11,9 @@
 		9F4F0EE02B69A24400858C97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F0EDF2B69A24400858C97 /* ContentView.swift */; };
 		9F4F0EE22B69A24500858C97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F4F0EE12B69A24500858C97 /* Assets.xcassets */; };
 		9F4F0EE52B69A24500858C97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F4F0EE42B69A24500858C97 /* Preview Assets.xcassets */; };
+		9F4F0EEC2B69A2E400858C97 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F0EEB2B69A2E400858C97 /* DataService.swift */; };
+		9F4F0EF02B69A30C00858C97 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F0EEF2B69A30C00858C97 /* Movie.swift */; };
+		9F4F0EF22B69A48A00858C97 /* MovieRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F0EF12B69A48A00858C97 /* MovieRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		9F4F0EDF2B69A24400858C97 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9F4F0EE12B69A24500858C97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F4F0EE42B69A24500858C97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F4F0EEB2B69A2E400858C97 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		9F4F0EEF2B69A30C00858C97 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		9F4F0EF12B69A48A00858C97 /* MovieRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,9 @@
 		9F4F0EDC2B69A24400858C97 /* CWC Challenge 4 */ = {
 			isa = PBXGroup;
 			children = (
+				9F4F0EEF2B69A30C00858C97 /* Movie.swift */,
+				9F4F0EF12B69A48A00858C97 /* MovieRowView.swift */,
+				9F4F0EEB2B69A2E400858C97 /* DataService.swift */,
 				9F4F0EDD2B69A24400858C97 /* CWC_Challenge_4App.swift */,
 				9F4F0EDF2B69A24400858C97 /* ContentView.swift */,
 				9F4F0EE12B69A24500858C97 /* Assets.xcassets */,
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F4F0EEC2B69A2E400858C97 /* DataService.swift in Sources */,
+				9F4F0EF22B69A48A00858C97 /* MovieRowView.swift in Sources */,
 				9F4F0EE02B69A24400858C97 /* ContentView.swift in Sources */,
+				9F4F0EF02B69A30C00858C97 /* Movie.swift in Sources */,
 				9F4F0EDE2B69A24400858C97 /* CWC_Challenge_4App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
